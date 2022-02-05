@@ -1,0 +1,93 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+@font-face {
+	font-family: Lobster;
+	src: url('../fonts/Lobster-Regular.woff2') format('woff2'),
+	url('../fonts/Lobster-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family:"Amatic SC", cursive;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.menu-list .menu-link {
+	color: hotpink;
+	font-size: 20px;
+	font-family: "Barlow", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.header-menu {
+	text-align: center;
+	text-decoration: overline ;
+}
+h1,
+h2 {
+	color:red ;
+	font-size: 38px;
+	font-family: "Lobster", cursive;
+	font-weight: 400;
+	text-align: center;
+	text-shadow: 3px 3px 3px #000;
+	text-decoration: underline;
+	letter-spacing: 10px;
+}
+
+.text a {
+	color: sandybrown;
+	text-decoration: line-through;
+}
+h2{
+	color: cornflowerblue;
+}
+.main-block-style ol li{
+	color: lawngreen;
+	font-family: "lemon", cursive;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	}
+.style-text{
+	color: silver;
+	font-size: 35px;
+	font-family: "Barlow", sans-serif;
+	font-weight: 700;
+	text-align: right;
+}
+.style span{
+	color: salmon;
+	font-size: 25px;
+}
+.style a{
+	color: mediumaquamarine;
+	text-decoration: underline;
+}
+.style .style-paragraph + li span{
+	color: green;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+footer{
+	font-family: "lemon", cursive; 
+	font-size: 13px;
+	text-align: right;
+}	
+.number  {
+	text-align: center;
+}
+.page img{
+	width: 40px;
+}
+
+	
